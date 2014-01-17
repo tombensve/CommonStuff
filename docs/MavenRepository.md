@@ -32,7 +32,7 @@ adding the following repository in your settings.xml:
        <activeProfile>bintray</activeProfile>
     </activeProfiles>
 
-I'm using a new service from JFrog (Artifactory) that provides you with multiple types of repositories to publish software to, where maven is just one kind. It also provides manual downloads, and download statistics. It is as of 2014-01-10 still in beta, and multi module projects cannot be synced to maven central through the service yet, but this has real potential when they have ironed out the bugs. It is available at [bintray.com](http://www.bintray.com). 
+I'm using a new service from JFrog (Artifactory) that provides you with multiple types of repositories to publish software to, where maven is just one kind. It also provides manual downloads, and download statistics. It is as of 2014-01-10 still in beta. This service has real potential!. It is available at [bintray.com](http://www.bintray.com). 
 
 The above setup is taken directly from bintray. I don't think you should worry about them using the id "central", but if you are, change the id.
 
