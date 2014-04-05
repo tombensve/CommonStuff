@@ -13,7 +13,7 @@ adding the following repository in your settings.xml:
                     </snapshots>
                     <id>central</id>
                     <name>bintray</name>
-                    <url>http://dl.bintray.com/tommy/maven</url>
+                    <url>http://jcenter.bintray.com/</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -23,7 +23,7 @@ adding the following repository in your settings.xml:
                     </snapshots>
                     <id>central</id>
                     <name>bintray-plugins</name>
-                    <url>http://dl.bintray.com/tommy/maven</url>
+                    <url>http://jcenter.bintray.com/</url>
                 </pluginRepository>
             </pluginRepositories>
         </profile>
@@ -32,8 +32,8 @@ adding the following repository in your settings.xml:
        <activeProfile>bintray</activeProfile>
     </activeProfiles>
 
-I'm using a new service from JFrog (Artifactory) that provides you with multiple types of repositories to publish software to, where maven is just one kind. It also provides manual downloads, and download statistics. It is as of 2014-01-10 still in beta. This service has real potential!. It is available at [bintray.com](http://www.bintray.com). 
+I'm using a new service from JFrog that provides you with multiple types of repositories to publish software to, where maven is just one kind. It also provides manual downloads, and download statistics. It is available at [bintray.com](http://www.bintray.com). 
 
-The above setup is taken directly from bintray. I don't think you should worry about them using the id "central", but if you are, change the id.
+Do note that the above jcenter repository is a superset of maven central!
 
-To browse my repo just bring upp [http://dl.bintray.com/tommy/maven](http://dl.bintray.com/tommy/maven) in a browser.
+To browse binaries & docs for any of my projects at bintray go to: https://bintray.com/tommy/maven/&lt;project&gt;/view 
