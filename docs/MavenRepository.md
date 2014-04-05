@@ -36,4 +36,4 @@ I'm using a new service from JFrog that provides you with multiple types of repo
 
 Do note that the above jcenter repository is a superset of maven central!
 
-To browse binaries & docs for any of my projects at bintray go to: https://bintray.com/tommy/maven/&lt;project&gt;/view 
+To browse binaries & docs for any of my projects at bintray go to: https://bintray.com/tommy/maven/<project>/view 
