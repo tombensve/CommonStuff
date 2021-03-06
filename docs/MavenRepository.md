@@ -5,7 +5,7 @@ adding the following repository in your settings.xml:
 
     <profiles>
         <profile>
-            <id>bintray</id>
+            <id>tombensve-ns</id>
             <repositories>
                 <repository>
                     <snapshots>
@@ -13,7 +13,7 @@ adding the following repository in your settings.xml:
                     </snapshots>
                     <id>central</id>
                     <name>bintray</name>
-                    <url>http://jcenter.bintray.com/</url>
+                    <url>https://download.natusoft.se/maven</url>
                 </repository>
             </repositories>
             <pluginRepositories>
@@ -23,17 +23,16 @@ adding the following repository in your settings.xml:
                     </snapshots>
                     <id>central</id>
                     <name>bintray-plugins</name>
-                    <url>http://jcenter.bintray.com/</url>
+                    <url>https://download.natusoft.se/maven</url>
                 </pluginRepository>
             </pluginRepositories>
         </profile>
     </profiles>
     <activeProfiles>
-       <activeProfile>bintray</activeProfile>
+       <activeProfile>tombensve-ns</activeProfile>
     </activeProfiles>
 
-I'm using a new service from JFrog that provides you with multiple types of repositories to publish software to, where maven is just one kind. It also provides manual downloads, and download statistics. It is available at [bintray.com](http://www.bintray.com). 
+Since Bintray is shutting down I for now make the binaries available from my web server. 
 
-Do note that the above jcenter repository is a superset of maven central!
-
-To browse binaries & docs for any of my projects at bintray go to: https://bintray.com/tommy/maven/{project}/view 
+Maven central has changed in how to submit stuff there since I sent my letter to maven users mailing list, which sonatype did not respond to, but JFrog/Bintray did.
+Things seems slighly (only slightly!) better now, and I might look into this when I feel I have the time required. Bintray was brilliant and I'm very sad to se them go. 
