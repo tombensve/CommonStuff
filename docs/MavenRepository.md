@@ -11,8 +11,8 @@ adding the following repository in your settings.xml:
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <id>central</id>
-                    <name>bintray</name>
+                    <id>ns-maven</id>
+                    <name>ns-maven-artifcts</name>
                     <url>https://download.natusoft.se/maven</url>
                 </repository>
             </repositories>
@@ -21,8 +21,8 @@ adding the following repository in your settings.xml:
                     <snapshots>
                         <enabled>false</enabled>
                     </snapshots>
-                    <id>central</id>
-                    <name>bintray-plugins</name>
+                    <id>ns-maven-plugins</id>
+                    <name>ns-maven-plugins</name>
                     <url>https://download.natusoft.se/maven</url>
                 </pluginRepository>
             </pluginRepositories>
@@ -30,6 +30,7 @@ adding the following repository in your settings.xml:
     </profiles>
     <activeProfiles>
        <activeProfile>tombensve-ns</activeProfile>
+       ...
     </activeProfiles>
 
 Since Bintray is shutting down I for now make the binaries available from my web server. 
