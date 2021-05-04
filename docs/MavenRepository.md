@@ -1,4 +1,4 @@
-# Maven Repository (at bintray)
+# Maven Repository 
 
 Most of my github opensource project can be downloaded by maven (and other tools using maven repositories) by
 adding the following repository in your settings.xml:
